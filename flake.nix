@@ -13,7 +13,7 @@
       in
       {
         devShell = with pkgs; mkShell {
-          buildInputs = [ coq ];
+          buildInputs = [ coq_8_11 ];
         };
       });
 }
